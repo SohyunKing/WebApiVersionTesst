@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\Documents\\GitHub\\WebApiVersionTest\\WebApiVersionByUrl\\WebApiVersionByUrl.csproj": {}
+    "C:\\Users\\Administrator\\Documents\\GitHub\\WebApiVersionTest\\WebApiVersionByHeader\\WebApiVersionByHeader.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\Documents\\GitHub\\WebApiVersionTest\\WebApiVersionByUrl\\WebApiVersionByUrl.csproj": {
+    "C:\\Users\\Administrator\\Documents\\GitHub\\WebApiVersionTest\\WebApiVersionByHeader\\WebApiVersionByHeader.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\Documents\\GitHub\\WebApiVersionTest\\WebApiVersionByUrl\\WebApiVersionByUrl.csproj",
-        "projectName": "WebApiVersionByUrl",
-        "projectPath": "C:\\Users\\Administrator\\Documents\\GitHub\\WebApiVersionTest\\WebApiVersionByUrl\\WebApiVersionByUrl.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Documents\\GitHub\\WebApiVersionTest\\WebApiVersionByHeader\\WebApiVersionByHeader.csproj",
+        "projectName": "WebApiVersionByHeader",
+        "projectPath": "C:\\Users\\Administrator\\Documents\\GitHub\\WebApiVersionTest\\WebApiVersionByHeader\\WebApiVersionByHeader.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\Documents\\GitHub\\WebApiVersionTest\\WebApiVersionByUrl\\obj\\",
+        "outputPath": "C:\\Users\\Administrator\\Documents\\GitHub\\WebApiVersionTest\\WebApiVersionByHeader\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -47,6 +47,10 @@
               "version": "[4.1.1, )"
             },
             "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.4.1, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
               "target": "Package",
               "version": "[5.4.1, )"
             }

@@ -1,13 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "BPjd4iG3TRjeEKIg4N1o0/xW1LxV1abrIvbcbMgJtIT9h1yVbGSLdFuv2dZtSQcJOx5F29MiOerQ57F3THmwYw==",
+  "dgSpecHash": "4jvBi1+bNfcg9vcj1e4uwNChLuGpO2A/c0udsQne+z5uSxX4HiCV8oJ8pgyjllq18qRt+LSr9MPQ8xWIbzHgpg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrator\\Documents\\GitHub\\WebApiVersionTest\\WebApiVersionByUrl\\WebApiVersionByUrl.csproj",
+  "projectFilePath": "C:\\Users\\Administrator\\Documents\\GitHub\\WebApiVersionTest\\WebApiVersionByHeader\\WebApiVersionByHeader.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\4.1.1\\microsoft.aspnetcore.mvc.versioning.4.1.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.openapi\\1.1.4\\microsoft.openapi.1.1.4.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\swashbuckle.aspnetcore\\5.4.1\\swashbuckle.aspnetcore.5.4.1.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\swashbuckle.aspnetcore.annotations\\5.4.1\\swashbuckle.aspnetcore.annotations.5.4.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.4.1\\swashbuckle.aspnetcore.swagger.5.4.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.4.1\\swashbuckle.aspnetcore.swaggergen.5.4.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.4.1\\swashbuckle.aspnetcore.swaggerui.5.4.1.nupkg.sha512",

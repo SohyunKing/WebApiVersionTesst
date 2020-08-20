@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30406.217
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiVersionByUrl", "WebApiVersionByUrl\WebApiVersionByUrl.csproj", "{F1C9B6E9-8B3D-4BFC-BA07-4CD4C40C77D3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiVersionByQueryString", "WebApiVersionByQueryString\WebApiVersionByQueryString.csproj", "{B6BCD572-DF04-409B-8405-0C24CA566953}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiVersionByHeader", "WebApiVersionByHeader\WebApiVersionByHeader.csproj", "{B6BCD572-DF04-409B-8405-0C24CA566953}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
