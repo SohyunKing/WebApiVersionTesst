@@ -2,15 +2,16 @@
 
 namespace WebApiVersionByUrl.Controllers.V1
 {
-    [ApiVersion("1.0", Deprecated = true)]
-    [ApiVersion("1.1")]
+    //[ApiVersion("1.0", Deprecated = true)]
+    //[ApiVersion("1.1")]
     [Route("api/v{version:apiVersion}/helloworld")]
     [ApiController]
     public class HelloWorldController : ControllerBase
     {
         [HttpGet]
         [Route("get")]
-        //[MapToApiVersion("1.0")]
+        [MapToApiVersion("1.0")]
+        [MapToApiVersion("2.0")]
         public IActionResult Get() => Ok("This is a get method, version 1.0.Hello from version 1.0.");
 
         [HttpPost]

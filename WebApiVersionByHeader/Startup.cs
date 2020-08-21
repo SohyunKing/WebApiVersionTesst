@@ -31,13 +31,14 @@ namespace WebApiVersionByHeader
             new ApiExplorerGroupPerVersionConvention()) // decorate Controllers to distinguish SwaggerDoc (v1, v2, etc.)
             );
             services.AddControllers();
-
             services.AddApiVersioning(options =>
             {
                 options.DefaultApiVersion = new ApiVersion(1, 0);
                 options.Conventions.Add(new VersionByNamespaceConvention());
                 options.AssumeDefaultVersionWhenUnspecified = true;
                 options.ReportApiVersions = true;
+
+                //options.ApiVersionSelector = new FallBackApiVersionSelector(options);
                 ////header
                 options.ApiVersionReader = new HeaderApiVersionReader("api-version");
                 //query string

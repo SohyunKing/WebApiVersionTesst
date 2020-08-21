@@ -71,7 +71,6 @@ namespace WebApiVersionByHeader
             {
                 controller.HasApiVersion(version);
             }
-            
 
             return true;
         }

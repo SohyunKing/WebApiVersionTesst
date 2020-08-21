@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\Documents\\GitHub\\WebApiVersionTest\\WebApiVersionByHeader\\WebApiVersionByHeader.csproj": {}
+    "C:\\Users\\dl865\\Documents\\GitHub\\WebApiVersionTest\\WebApiVersionByHeader\\WebApiVersionByHeader.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\Documents\\GitHub\\WebApiVersionTest\\WebApiVersionByHeader\\WebApiVersionByHeader.csproj": {
+    "C:\\Users\\dl865\\Documents\\GitHub\\WebApiVersionTest\\WebApiVersionByHeader\\WebApiVersionByHeader.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\Documents\\GitHub\\WebApiVersionTest\\WebApiVersionByHeader\\WebApiVersionByHeader.csproj",
+        "projectUniqueName": "C:\\Users\\dl865\\Documents\\GitHub\\WebApiVersionTest\\WebApiVersionByHeader\\WebApiVersionByHeader.csproj",
         "projectName": "WebApiVersionByHeader",
-        "projectPath": "C:\\Users\\Administrator\\Documents\\GitHub\\WebApiVersionTest\\WebApiVersionByHeader\\WebApiVersionByHeader.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\Documents\\GitHub\\WebApiVersionTest\\WebApiVersionByHeader\\obj\\",
+        "projectPath": "C:\\Users\\dl865\\Documents\\GitHub\\WebApiVersionTest\\WebApiVersionByHeader\\WebApiVersionByHeader.csproj",
+        "packagesPath": "C:\\Users\\dl865\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dl865\\Documents\\GitHub\\WebApiVersionTest\\WebApiVersionByHeader\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dl865\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://39.105.11.71:4309/nuget/": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -65,16 +61,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.2, 3.1.2]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.2, 3.1.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -83,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-preview.6.20318.15\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

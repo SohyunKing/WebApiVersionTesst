@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ApplicationModels;
 using Microsoft.AspNetCore.Mvc.Versioning;
+using Microsoft.AspNetCore.Mvc.Versioning.Conventions;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -10,6 +11,7 @@ using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerGen;
 using System;
 using System.Linq;
+using WebApiVersionByUrl.Controllers.V1;
 
 namespace WebApiVersionByUrl
 {
@@ -38,7 +40,12 @@ namespace WebApiVersionByUrl
                 options.AssumeDefaultVersionWhenUnspecified = true;
                 options.ReportApiVersions = true;
 
-                //options.Conventions.Add(new VersionByUrlSegmentConvention());
+                options.Conventions.Add(new VersionByNamespaceConvention());
+
+                //options.Conventions.Controller<HelloWorldController>().
+                //    HasApiVersion(1, 0).
+                //    Action<HelloWorldController>(c => c.Get()).
+                //    MapToApiVersion(1, 1);
                 ////header
                 //options.ApiVersionReader = new HeaderApiVersionReader("api-version");
                 ////query string
