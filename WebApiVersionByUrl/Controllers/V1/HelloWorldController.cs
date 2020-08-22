@@ -11,7 +11,6 @@ namespace WebApiVersionByUrl.Controllers.V1
         [HttpGet]
         [Route("get")]
         [MapToApiVersion("1.0")]
-        [MapToApiVersion("2.0")]
         public IActionResult Get() => Ok("This is a get method, version 1.0.Hello from version 1.0.");
 
         [HttpPost]

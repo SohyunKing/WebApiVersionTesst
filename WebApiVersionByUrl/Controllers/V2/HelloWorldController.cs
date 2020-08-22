@@ -7,6 +7,10 @@ namespace WebApiVersionByUrl.Controllers.V2
     [ApiController]
     public class HelloWorldController : ControllerBase
     {
+        [HttpGet]
+        [Route("get")]
+        public IActionResult Get() => Ok("This is a get method, version 1.0.Hello from version 1.0.");
+
         [HttpPost]
         [Route("post")]
         public IActionResult Post(ApiVersion apiVersion) =>

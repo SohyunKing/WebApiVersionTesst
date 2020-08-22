@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 namespace WebApiVersionByUrl.Controllers
 {
     [ApiController]
-    [ApiVersionNeutral]
+    //[ApiVersionNeutral]
     [Route("api/v{version:apiVersion}/helloworld")]
     public class HelloWorldController : ControllerBase
     {
-        [HttpGet]
-        [Route("get")]
-        //[MapToApiVersion("1.0")]
-        public IActionResult Get() => Ok("This is a get method, version neutral.");
+        //[HttpGet]
+        //[Route("get")]
+        ////[MapToApiVersion("1.0")]
+        //public IActionResult Get() => Ok("This is a get method, version neutral.");
     }
 }

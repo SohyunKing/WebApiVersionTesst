@@ -2,10 +2,13 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ApplicationModels;
+using Microsoft.AspNetCore.Mvc.Routing;
 using Microsoft.AspNetCore.Mvc.Versioning;
 using Microsoft.AspNetCore.Mvc.Versioning.Conventions;
+using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerGen;
@@ -58,7 +61,8 @@ namespace WebApiVersionByUrl
                 //    new UrlSegmentApiVersionReader(),
                 //    new HeaderApiVersionReader("api-version"));
             });
-
+            //services.Remove(services.Single(s => s.ImplementationType == typeof(ApiVersionMatcherPolicy)));
+            //services.TryAddEnumerable(ServiceDescriptor.Singleton<MatcherPolicy, FallbackApiVersionMatcherPolicy>());
             //Swagger
             services.AddSwaggerGen(c =>
             {
